@@ -8,6 +8,7 @@ using System.Threading.Tasks;
 namespace StarChart.Controllers
 {
     [Route("")]
+    [ApiController]
     public class CelestialObjectController : ControllerBase
     {
         public CelestialObjectController(ApplicationDbContext applicationDbContext)
